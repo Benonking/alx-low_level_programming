@@ -1,7 +1,7 @@
 #include<stdio.h>
 /*
- *prints text to standard output 
- *main returns 0
+ *main -entry point
+ prints text to standard output
  */
 int main(void)
 {
