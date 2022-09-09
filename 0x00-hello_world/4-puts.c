@@ -2,7 +2,8 @@
 
 /**
  * main-Entry point for program
- * return: Always 0 (sucess)
+ * Use puts to print to the standard out put 
+ * Return: Always 0 (Success)
  */
 
 int main(void)
