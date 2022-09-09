@@ -2,7 +2,7 @@
 
 /*
  *main -entry point
- prints text to standard output
+ *prints text to standard output
  */
 
 int main(void)
