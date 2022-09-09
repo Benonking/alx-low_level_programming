@@ -2,7 +2,7 @@
 
 /**
  * main-Entry point for program
- * Use puts to print to the standard out put 
+ * Use puts to print to the standard output 
  * Return: Always 0 (Success)
  */
 
