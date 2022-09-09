@@ -4,5 +4,5 @@ int main (void){
  *returns 0
  * */
 puts("Programming is like building a multilingual puzzle\n");
-	returns(0)
+	returns(0);
 }
