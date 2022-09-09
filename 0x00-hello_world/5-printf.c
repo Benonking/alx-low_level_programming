@@ -2,7 +2,7 @@
 
 /*
  *main -entry point
- *prints text to standard output
+ *Return: Always 0 (Success) 
  */
 
 int main(void)
