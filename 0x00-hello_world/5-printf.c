@@ -1,8 +1,10 @@
 #include<stdio.h>
+
 /*
  *main -entry point
  prints text to standard output
  */
+
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
