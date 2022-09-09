@@ -1,5 +1,5 @@
 #include <stdio.h>
-Int main (void){
+int main (void){
 /*main entry 
  *returns 0
  * */
