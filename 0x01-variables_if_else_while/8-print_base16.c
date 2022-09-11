@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - print all base 16 numbers in lowercase
- * Return: Always 0
+ * main - print all base 16(hexadecimal) numbers in lowercase
+ * Return: Always 0 (success)
  */
 
 int main(void)
