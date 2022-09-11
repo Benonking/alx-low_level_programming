@@ -19,7 +19,7 @@ int main(void)
 
 	if ((n % 100) == 0)
 	{
-		 printf("and is 0\n"); 
+		 printf("0\n"); 
 	}
 	else if ((n%10)>5)
 	{
