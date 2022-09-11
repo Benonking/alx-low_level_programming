@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- *main - Entry Point
- * print alphabet in lower case
+ *main - print alphabet in lower case exclude 'e' and 'q'
  * Rerurn: Always  0
  */
 
