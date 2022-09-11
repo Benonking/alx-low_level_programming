@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
  * main - Print numbers in reverse order
- * Returm: always 0
+ * Returm: Always 0 (Success)
  */
 
 int main(void)
