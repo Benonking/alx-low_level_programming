@@ -24,7 +24,7 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-		printf("%i is neagaive" n);
+		printf("%i is neagaive", n);
 	}
 	return (0);
 }
