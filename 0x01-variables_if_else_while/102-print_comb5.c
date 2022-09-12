@@ -15,13 +15,13 @@ int main(void)
 	{
 		for (ones = '0'; ones <= '9'; ones++)
 		{
-			for (x = tens; x <= '9'; x++)
+			for (x = tens; x <= '9'; x++)/*printing second pair*/
 			{
 				for (o = ones + 1; o <= '9'; o++)
 				{
 					putchar(tens);
 					putchar(ones);
-					putchar(' ');
+					putchar(' ');/*printing spare between the nums*/
 					putchar(x);
 					putchar(o);
 
