@@ -16,9 +16,9 @@ int main(void)
 		{
 			for (ones = (tens + 1); ones <= '9'; ones++)
 			{
-				putchar(ones);
-				putchar(tens);
 				putchar(hundreds);
+				putchar(tens);
+				putchar(ones);
 				if (hundreds != '7' || tens != '8' || ones != '9')
 				{
 					putchar(',');
