@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main - Entry Point
+ * main - prints a combo of two digit numbs
  * Return \: Always 0 (sucess)
  */
 
