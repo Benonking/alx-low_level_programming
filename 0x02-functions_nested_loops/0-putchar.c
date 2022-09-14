@@ -2,14 +2,14 @@
 #include "main.h"
 
 /**
- *Main - print putchar
+ *main - print _putchar
  *Return: Always 0
  */
 
 int main(void)
 {
 
-	_putchar('_');
+	_putchar('_');/*function call*/
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
