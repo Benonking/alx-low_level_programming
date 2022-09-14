@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _abs - prints abolute number of an integer
+ * @num: parameter to hold anumber
  *Return - int Always
  */
 
