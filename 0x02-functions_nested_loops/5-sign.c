@@ -21,7 +21,7 @@ int print_sign(int check)
 
 		return (0);
 	}
-	else if (check < '0')
+	else
 	{
 		_putchar('-');
 
