@@ -11,7 +11,7 @@ void times_tabe(void)
 	int pdt;
 	for (column = 0; column <= 9; column++)
 	{
-		for (row = 0; rows <= 9; rows++)
+		for (rows = 0; rows <= 9; rows++)
 		{
 			pdt= rows * column;
 
