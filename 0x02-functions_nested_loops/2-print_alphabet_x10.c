@@ -10,14 +10,12 @@ void print_alphabet_x10(void)
 	char alpha;
 	int lines;
 
-	for (alpha = 'a'; alpha <= 'z'; alpha++)
+	for (lines = 1; lines <= 10; lines++)
 	{
-		for (lines = 1; lines <= 10; lines++)
+		for (alpha = 'a'; alpha <= 'z'; alpha++)
 		{
-			_putchar('\n');
+			_putchar(alpha);
 		}
-		_putchar(alpha);
+		_putchar('\n');
 	}
-	_putchar('\n');
-
 }
