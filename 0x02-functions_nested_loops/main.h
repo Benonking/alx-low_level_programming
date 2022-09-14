@@ -19,7 +19,7 @@ void print_alphabet_x10(void);
 
 int _islower(int c);
 
-/checks for a character/
+/*checks for a character*/
 
 int isalpha(int c);
 
