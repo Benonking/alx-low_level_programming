@@ -11,6 +11,8 @@ void times_table(void)
 	int pdt;
 	for (column = 0; column <= 9; column++)
 	{
+		_putchar('0');
+
 		for (rows = 0; rows <= 9; rows++)
 		{
 			pdt= rows * column;
