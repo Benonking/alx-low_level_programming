@@ -4,7 +4,7 @@
  * Return: table
  */
 
-void times_tabe(void)
+void times_table(void)
 {
 	int column;
 	int rows;
