@@ -2,7 +2,7 @@
 /**
  * _abs - prints abolute number of an integer
  * @num: parameter to hold anumber
- *Return - int Always
+ *Return - 0 Always
  */
 
 int _abs(int num)
