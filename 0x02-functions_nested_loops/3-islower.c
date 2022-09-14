@@ -1,7 +1,9 @@
 #include "main.h"
 /**
  * _islower -checks if chacter is lowercase
- * Description: lower conttains lower case variables
+ *
+ * Description: LOWER parameter fot the function islower()
+ * 
  * Return: 1 true or 0 for false
  */
 
