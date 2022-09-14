@@ -27,7 +27,7 @@ void times_tabe(void)
 			}
 			else if (pdt > 9)
 			{
-				putchar(',');
+				_putchar(',');
                                 _putchar(' ');
                                 _putchar('0' + (pdt / 10));
 				_putchar('0' + (pdt % 10));
