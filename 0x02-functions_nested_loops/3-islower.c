@@ -4,11 +4,10 @@
  * Return: 1 true or 0 for false
  */
 
-int _islower(int c)
+int _islower(int lower)
 {
-	char x;
 
-	if (x = 'a'; x<= 'z')
+	if (lower = 'a'; lower<= 'z')
 	{
 		return (1);
 	}
