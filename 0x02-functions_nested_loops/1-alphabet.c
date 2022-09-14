@@ -2,7 +2,7 @@
 
 /**
  *main - Print alphabet in lover case
- *Return: Always 0 
+ *Return: Always 0
  */
 
 void print_alphabet(void)
