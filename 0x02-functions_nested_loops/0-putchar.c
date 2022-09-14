@@ -6,10 +6,10 @@
  *Return: Always 0
  */
 
-int mai(void)
+int main(void)
 {
 
-	char L='_putchar';
+	int L = '_putchar';
 
 	putchar(L);
 	putchar('\n');
