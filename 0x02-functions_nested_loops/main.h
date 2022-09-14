@@ -7,4 +7,8 @@
 
 int _putchar(char x);
 
+/*_putchar - pritn alphabet inlowercase */
+
+void print_alphabet(void);
+
 #endif
