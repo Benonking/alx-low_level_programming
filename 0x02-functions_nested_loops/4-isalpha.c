@@ -5,7 +5,7 @@
  *Return:1 if true 0 if false
  */
 
-int isalpha(int alpha)
+int _isalpha(int alpha)
 {
 	if (alpha >= 'a'; alpha <= 'z'
 		|| alpha >= 'A'; alpha <= 'Z')
