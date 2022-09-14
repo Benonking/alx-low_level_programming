@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *main - Print alphabet in lover case
+ *print_alphabet - Print alphabet in lover case
  *Return: Always 0
  */
 
