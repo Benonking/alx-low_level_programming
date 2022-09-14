@@ -11,4 +11,8 @@ int _putchar(char x);
 
 void print_alphabet(void);
 
+/*print alphbet ten tines in lowercase*/
+
+void print_alphabet_x10(void);
+
 #endif
