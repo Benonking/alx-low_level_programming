@@ -21,6 +21,6 @@ int _islower(int c);
 
 /*checks for a character*/
 
-int isalpha(int c);
+int _isalpha(int c);
 
 #endif
