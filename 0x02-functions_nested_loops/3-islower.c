@@ -2,8 +2,7 @@
 /**
  * _islower -checks if chacter is lowercase
  *
- * Description: LOWER parameter fot the function islower()
- * 
+ * @lower:  parameter fot the function islower()
  * Return: 1 true or 0 for false
  */
 
