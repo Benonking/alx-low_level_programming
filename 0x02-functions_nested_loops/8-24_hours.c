@@ -20,7 +20,7 @@ void jack_bauer(void)
 			_putchar('0' + (M / 10));
 			_putchar('0' + (M % 10));
 			_putchar('\n');
-			m++;
+			M++;
 		}
 		M = 0;
 		H++
