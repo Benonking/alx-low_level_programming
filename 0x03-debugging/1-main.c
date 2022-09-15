@@ -2,7 +2,6 @@
 
 /**
 * main - causes an infinite loop
-* @i: iterator
 * Return: Always 0 (Success)
 */
 
@@ -11,7 +10,6 @@ int main(void)
 	int i;
 
 	printf("Infinite loop incoming :(\n");
-
 	/*
 	*i = 0;
 	*while (i < 10)
