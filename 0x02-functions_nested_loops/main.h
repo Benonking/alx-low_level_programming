@@ -43,4 +43,7 @@ void jack_bauer(void);
 
 void times_table(void);
 
+/*Add two ints*/
+
+int add(int nun1, int num2);
 #endif
