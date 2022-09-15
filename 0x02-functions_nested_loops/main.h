@@ -46,4 +46,9 @@ void times_table(void);
 /*Add two ints*/
 
 int add(int nun1, int num2);
+
+/*print natural numbers*/
+
+void print_to_98(int n);
+
 #endif
