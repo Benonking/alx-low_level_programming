@@ -2,7 +2,8 @@
 
 /**
 * main - causes an infinite loop
-* Return: 0
+* @i: iterator
+* Return: Always 0 (Success)
 */
 
 int main(void)
