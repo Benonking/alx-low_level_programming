@@ -5,6 +5,7 @@ include "main.h"
  * size: size of square
  */
 
+void print_square(void)
 {
 	int row, column;
 
