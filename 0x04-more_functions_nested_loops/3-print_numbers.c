@@ -1,6 +1,7 @@
-#include "main.h"
+i#include "main.h"
 /**
  * print_numbers - Print numberds 0 to 9
+ * Return: Always sucess 0 
  */
 
 void print_numbers(void)
