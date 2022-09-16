@@ -5,25 +5,20 @@ include "main.h"
  * size: size of square
  */
 
-int print_square(int size)
 {
-	if (size < '0')
-	{
-		_putchar('\n');
-	}
-	else
-	{
-		int i;
+	int row, column;
 
-		for (i = '1'; i <= size; i++)
+	if (size > 0)
+	{
+		for (row = 1; row <= size; row++)
 		{
-			int j;
-
-			for (j = '1'; j <= size; j++)
+			for (column = 1; column <= size; column++)
 			{
 				_putchar('#');
 			}
-			_putchar('\n')
+			_putchar('\n');
 		}
 	}
+	else
+		_putchar('\n');
 }
