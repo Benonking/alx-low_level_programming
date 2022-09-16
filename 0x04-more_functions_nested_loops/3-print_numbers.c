@@ -1,7 +1,4 @@
 i#include "main.h"
-/**
- * print_numbers - Print numberds 0 to 9
- */
 
 /**
  * print_numbers - print 0 to 9
