@@ -1,14 +1,14 @@
 #include "main.h"
-#include<string.h>
+
 /**
- * print_rev- Prints revers of a string 
+ * print_rev- Prints revers of a string
  * @s: string to be reveresed
  * Return: Always 0
  */
 
 void print_rev(char *s)
 {
-	int len=0;
+	int len = 0;
 	int i;
 
 	while (*s != '\0')/*get length of string*/
