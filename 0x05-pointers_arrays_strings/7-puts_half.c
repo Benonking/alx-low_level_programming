@@ -25,14 +25,19 @@ int _strlen(char *s)
 
 void puts_half(char *str)
 {
-	int i;
+	int idx;
+	int len = _strlen(str);
 
-	for (i = 0; i <= _strlen(str); i++)
+	/* find the index to start depending on even/odd amount of strlen */
+	if (len % 2 != 0)
+		idx = (len / 2) + 1;
+	else
+		idx = (len / 2);
+
+	while (idx < len)
 	{
-		if (_strlen(str) > _strlen(str) / 2)
-		{
-			_putchar(*(str[i]));
-		
-		}
+		_putchar(*(str + idx));
+		idx++;
 	}
+	_putchar('\n');
 }
