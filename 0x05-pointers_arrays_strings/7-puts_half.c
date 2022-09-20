@@ -25,14 +25,17 @@ int _strlen(char *s)
 
 void puts_half(char *str)
 {
-	int i;
+	int i,len;
 
-	for (i = 0; str[i] <= _strlen(str); i++)
+	for (i = 0; i <= _strlen(str); i++)
 	{
-		if (str[i] > _strlen(str) / 2)
+		if(_strlen(str) % 2 != 0)
 		{
-			_putchar(str[i]);
+		len = _strlen(str) + 1;
 		}
+		else
+			len = _strlen(str) /2;
+
+		_putchar(str[i]);
 	}
-	_putchar('\n');
 }
