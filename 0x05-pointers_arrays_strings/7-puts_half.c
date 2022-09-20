@@ -31,7 +31,7 @@ void puts_half(char *str)
 	{
 		if (_strlen(str) > _strlen(str) / 2)
 		{
-			_putchar(str[i]);
+			_putchar(*(str[i]));
 		
 		}
 	}
