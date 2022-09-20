@@ -26,11 +26,10 @@ int _strlen(char *s)
 void puts_half(char *str)
 {
 	int i;
-	len = _strlen(str);
 
 	for (i = 0; i <= _strlen(str); i++)
 	{
-		if (len > _strlen / 2)
+		if (_strlen(str) > _strlen(str) / 2)
 		{
 		_putchar(str[i]);
 		}
