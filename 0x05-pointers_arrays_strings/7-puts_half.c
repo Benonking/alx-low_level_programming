@@ -29,11 +29,11 @@ void puts_half(char *str)
 
 	for (i = 0; i <= _strlen(str); i++)
 	{
-		int len;
-
 		if (_strlen(str) % 2 != 0)
 		{
-		len = _strlen(str) + 1;
+			int len;
+
+			len = _strlen(str) + 1;
 		}
 		else
 			len = _strlen(str) / 2;
