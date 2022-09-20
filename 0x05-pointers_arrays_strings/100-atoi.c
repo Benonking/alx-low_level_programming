@@ -4,18 +4,19 @@
  * @s: string to be converted
  * Return: interger
  */
+
 int _atoi(char *s)
 {
-	unsigned int tens, digit, positive = n;
+	unsigned int tens, digit, positive;
 	double t_beg = 1;
 
-	if (n == 0)
+	if (positive == 0)
 		_putchar('0');
 	else
 	{
-		if (n < 0)
+		if (positive < 0)
 		{
-			positive = n * -1;
+			positive = positive * -1;
 			_putchar('-');
 		}
 
