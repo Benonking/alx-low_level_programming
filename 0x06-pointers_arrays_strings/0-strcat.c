@@ -15,4 +15,6 @@ char *_strcat(char *dest, char *src)
 		i++;
 	while ((dest[i++] = src[j++]) != '\0')/*copt src*/
 		;
+
+	return (dest);
 }
