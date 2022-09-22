@@ -8,6 +8,7 @@
 char *cap_string(char *s)
 {
 	int i;
+
 	/*check firsr letterfor capital*/
 	if (s[i] >= 'a' && s[i] <= 'z')
 		s[i] = s[i] - 'a' + 'A';
