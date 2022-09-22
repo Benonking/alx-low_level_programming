@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_strncat- copy n charcters from src to dest
+ *_strncat - copy n charcters from src to dest
  *@src: Original string
  *@dest: final string
  *@n: number of charaters to copy
