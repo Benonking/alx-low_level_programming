@@ -8,7 +8,7 @@
  * Return: dest
  */
 
-char *_strncat(char *dest, char *src, int n)
+char* _strncat(char *dest, char *src, int n)
 {
 	int i, j;
 
@@ -21,6 +21,7 @@ char *_strncat(char *dest, char *src, int n)
 			while ((dest[i++] = src[j++]) != '\0')/*copt src*/
 				;
 		}
+		dest = '\0';
 	}
 	return (dest);
 }
