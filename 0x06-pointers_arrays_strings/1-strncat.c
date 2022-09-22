@@ -15,7 +15,7 @@ char *_strncat(char *dest, char *src, int n)
 	i = j = 0;
 	while (dest[i] != '\0')/* find end  of src */
 		i++;
-	if (src[j] <= n)
+	if (src[j] <= src[i])
 	{
 		while ((dest[i++] = src[j++]) != '\0')/*copt src*/
 		;
