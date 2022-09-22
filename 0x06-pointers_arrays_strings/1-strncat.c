@@ -3,8 +3,8 @@
 /**
  **_strncat- copy n charcters from src to dest
  *@src: Original string
- *@dest:final string
- *@n:number of charaters to copy
+ *@dest: final string
+ *@n: number of charaters to copy
  *Return: dest
  */
 
@@ -15,7 +15,7 @@ char *_strncat(char *dest, char *src, int n)
 	i = j = 0;
 	while (dest[i] != '\0')/* find end  of src */
 		i++;
-	while (src[j] != src[n])
+	if (src[j] != src[n])
 	{
 		while ((dest[i++] = src[j++]) != '\0')/*copt src*/
 		;
