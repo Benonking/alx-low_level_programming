@@ -19,7 +19,7 @@ char *_strncat(char *dest, char *src, int n)
 		if (src[j] != src[n])
 		{
 			while ((dest[i++] = src[j++]) != '\0')/*copt src*/
-				
+				;
 		}
 	}
 	return (dest);
