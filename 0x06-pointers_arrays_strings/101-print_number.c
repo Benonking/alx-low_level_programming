@@ -2,6 +2,7 @@
 
 /**
  * print_number -print a number
+ * @n: number
  * Return : Always 0
  */
 
