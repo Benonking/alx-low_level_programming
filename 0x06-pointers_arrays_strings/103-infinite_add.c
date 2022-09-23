@@ -1,10 +1,11 @@
 #include "main.h"
 /**
- * infinite_add - add two numbers
+ * *infinite_add - add two numbers
  * @n1: first number
  * @n2: second number
  * @r: result of addition
  * @size_r: size of buffer of result
+ * Return: result
  */
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
