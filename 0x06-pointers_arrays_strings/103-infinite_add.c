@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * *infinite_add - add two numbers
  * @n1: first number
@@ -42,5 +43,6 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		r[k] = r[l];
 		r[l] = m;
 	}
+
 	return (r);
 }
