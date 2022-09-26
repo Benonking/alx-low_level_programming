@@ -10,14 +10,13 @@ include "main.h"
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	unsigned int i, j;
+	if (n > 0)
+	{
+		int i;
 
 	for (i = 0; i < n; i++)
-	{
-		for (j = 0 ; j <= i; j++)
-		{
-		*(dest + j) = *(src + i);
-		}
+	
+		*(dest + i) = *(src + i);
 	}
 	return (dest);
 }
