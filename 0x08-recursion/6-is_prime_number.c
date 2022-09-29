@@ -26,7 +26,7 @@ int primeNumber(int p, int div)
 	if (div == 1)
 		return (1);
 
-	if (n % div == 0 && div > 0)
+	if (p % div == 0 && div > 0)
 		return (0)
 
 
