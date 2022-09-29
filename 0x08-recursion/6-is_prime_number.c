@@ -27,8 +27,7 @@ int primeNumber(int p, int div)
 		return (1);
 
 	if (p % div == 0 && div > 0)
-		return (0)
-
+		return (0);
 
 		return (primeNumber(p, div - 1));
 }
