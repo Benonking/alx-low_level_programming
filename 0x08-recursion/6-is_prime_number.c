@@ -1,6 +1,6 @@
 #include "main.h"
 
-int primeNUmber(int p, int divider);
+int primeNumber(int p, int divider);
 /**
  * is_prime_number - return 1 if n is a prime number else return 0
  * @n: check integer
