@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main print minimun number of coints to make change in an ammount of money
+ * main - print minimun number of coints to make change in an ammount of money
  * @argc: number of arguments (two number)
  * @argv: pointer to string argument
  * Return: Always 0
