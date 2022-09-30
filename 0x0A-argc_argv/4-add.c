@@ -35,16 +35,19 @@ int main(int argc, char *argv[])
 	{
 		printf("%d\n", argc);
 	}
-	for (i = 1; i < argc; i++)
-	{
-		if (!(is_digit(argv[i])))
+	else
+		for (i = 1; i < argc; i++)
 		{
-			printf("Error\n");
-			return (1);
-		}
-		if (atoi(argv[i]) > 0)
-			sum += atoi(argv[i]);
+			if (!(is_digit(argv[i])))
+			{
+				printf("Error\n");
+				return (1);
+			}
+
+			if (atoi(argv[i]) > 0)
+				sum += atoi(argv[i]);
 	}
+
 	printf("%d\n", sum);
 	return (0);
 }
