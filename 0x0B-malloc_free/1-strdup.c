@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * _strup - return pointer to a newly  allocated space in mem
+ * _strdup - return pointer to a newly  allocated space in mem
  * @str: pointer to string paramenter
  * Return: pointer to string
  */
