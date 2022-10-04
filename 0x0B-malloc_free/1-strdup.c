@@ -12,8 +12,8 @@ char *_strdup(char *str)
 {
 	char *duplicate_str;
 	int i = 0;
-
-	if (str == 0) 	/* validate str input */
+	
+	if (str == 0) /* validate str input */
 	if (str == 0) /* validate str input */
 		return (NULL);
 	duplicate_str = malloc(sizeof(str)); /* allocate memory */
