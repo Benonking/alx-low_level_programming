@@ -28,5 +28,3 @@ char *_strdup(char *str)
 	*(duplicate_str + i) = '\0';
 	return (duplicate_str);
 }
-
-}
