@@ -5,7 +5,7 @@
  * create_array - create an arrray of chars, and intialiize them
  * @c: character
  * @size: size
- * @Return: pointer to char
+ * Return: pointer to char
  */
 
 char *create_array(unsigned int size, char c)
@@ -25,6 +25,6 @@ char *create_array(unsigned int size, char c)
 		*(a + 1) = c;
 		i++;
 	}
-	*(a + i) ='\0';
+	*(a + i) = '\0';
 	return (a);
 }
