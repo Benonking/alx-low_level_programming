@@ -5,7 +5,9 @@
  * array_range - create an array of integers
  * @min: min of range
  * @max: max of range
- * Return: pointer to newly allocated array*/
+ * Return: pointer to newly allocated array
+ */
+
 int *array_range(int min, int max)
 {
 	void *a;
