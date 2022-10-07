@@ -10,12 +10,21 @@
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	void *a[];
+	void *a;
+	unsigned int i;
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
-	a = malloc(sizeof(size) * (nmemb + 1));
+
+	a = malloc(sizeof(size * nmemb);
 
 	if (a == NULL)
 		return (NULL);
+
+	/*set allocated men to 0 */
+
+	for (i = 0; i < nmemb * size; i++)
+		*((char *)a + i) = 0;
+
+	return (a);
 }
