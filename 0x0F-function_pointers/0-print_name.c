@@ -17,6 +17,6 @@ void print_name(char *name, void (*f)(char *))
 
 void f(char s)
 {
-	if (s ! = '\0')
+	if (s != '\0')
 		_putchar(s);
 }
