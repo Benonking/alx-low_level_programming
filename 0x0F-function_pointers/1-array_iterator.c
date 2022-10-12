@@ -1,4 +1,7 @@
 #include <stddef.h>
+#include <stdlib.h>
+#include "function_pointers.h"
+
 /**
  * array_iterator - execute funcations given as paramaner in an array
  * @array: pointer to array
@@ -13,7 +16,7 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 	if (array != NULL && action != NULL)
 		for (i = 0; i < size; i++)
 		{
-		action(*(array + i);
+		action(*(array + i));
 		}
 }
 
