@@ -11,10 +11,12 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-	f(name);
+	if (name != '\0')
+		f(name);
 }
 
 void f(char s)
 {
-	_putchar(s);
+	if (s ! = '\0')
+		_putchar(s);
 }
