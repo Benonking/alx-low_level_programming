@@ -9,7 +9,6 @@
  * @cmp: pointer to function cmp
  *
  * Return: -1 if no element, -1 if size <= 0 elae return index of int
- *
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
