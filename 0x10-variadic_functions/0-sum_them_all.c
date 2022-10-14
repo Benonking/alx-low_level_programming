@@ -1,4 +1,4 @@
-#include "variadic_fiunctions.h"
+#include "variadic_functions.h"
 
 /**
  * sum_them_all - sum all paramaters
@@ -13,7 +13,7 @@ int sum_them_all(const unsigned int n, ...)
 	unsigned int i;
 	int sum = 0;
 
-	Va_list ap;
+	va_list ap;
 
 	va_start(ap, n);
 
