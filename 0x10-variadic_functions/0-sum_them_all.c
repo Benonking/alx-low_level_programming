@@ -5,7 +5,7 @@
  * @n: number of arguments
  * ...: other paramaters
  *
- * Return: sum 
+ * Return: sum
  */
 
 int sum_them_all(const unsigned int n, ...)
