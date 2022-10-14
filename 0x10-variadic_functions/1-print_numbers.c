@@ -2,16 +2,16 @@
 #include <stdlib.h>
 
 /**
- * print_number - print numbers
+ * print_numbers - print numbers
  * @separator: separotor of nmumbers
  * @n: number of arguments
  *
  * Return: Always 0
  */
 
-void print_number(const char *separator, const unsigned int n, ...)
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	int i;
+	unsigned int i;
 	va_list pa;
 
 	va_start(pa, n);
@@ -22,9 +22,9 @@ void print_number(const char *separator, const unsigned int n, ...)
 	for (i = 0; i < n; i++)
 	{
 		if (!separator)
-			prinf("%d", va_arg(pa, int));
+			printf("%d", va_arg(pa, int));
 		else if (separator && i == 0)
-			 prinf("%d", va_arg(pa, int));
+			 printf("%d", va_arg(pa, int));
 		else
 			printf("%s%d", separator, va_arg(pa, int));
 	}
