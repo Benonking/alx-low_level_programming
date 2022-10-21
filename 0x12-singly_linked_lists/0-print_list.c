@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 
 /**
  * size_t print_list - print the number of nodes in a list
