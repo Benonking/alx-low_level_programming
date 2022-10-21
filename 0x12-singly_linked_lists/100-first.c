@@ -1,18 +1,12 @@
-#include "lists.h"
+#include <stdio.h>
 
 /**
- * free_list - free a list
- * @head: pointer to head of list
- * Return: Always 0
- *
+ * execute_before_main - executes this function before main function
+ * Note: made possible by prior declaration of "__attribute__ ((constructor))"
  */
 
-void free_list(list_t *head)
+void __attribute__ ((constructor)) execute_before_main()
 {
-	while (head != NULL)
-	{
-		free(head->str);
-		free(head);
-		head = head->next;
-	}
+	printf("You're beat! and yet, you must allow,\n");
+	printf("I bore my house upon my back!\n");
 }
