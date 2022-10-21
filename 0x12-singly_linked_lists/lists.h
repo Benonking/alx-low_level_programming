@@ -1,12 +1,24 @@
 #ifndef "LIST_H"
 #define "LIST_H"
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+/**
+ * struct list - sinlgly linked list
+ * @str: string
+ * @len: length of string
+ * link: point to next node
+ */
 typedef struct list
 {
-	int node;
-
+	char *str;
+	unsigned int len;
+	struct list *link;
 } list_t;
 
+int _putchar(char c);
 size_t print_list(const list_t *h);
 size_t list_len(const list_t *h);
 list_t *add_node(list_t **head, const char *str);
