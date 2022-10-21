@@ -8,9 +8,10 @@
  */
 size_t print_list(const list_t *h)
 {
+	int i;
+
 	if (h == NULL)
 		return (0);
-	int i;
 
 	for (i = 1; h->link != NULL; i++)
 		/*iterate throuth the list up to last elemet*/
