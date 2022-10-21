@@ -10,7 +10,7 @@
 
 list_t *add_node_end(list_t **head, const char *str)
 {
-	list_t new_node;/*create new node*/
+	list_t *new_node, *i;/*create new node*/
 
 	if (str == NULL)
 		return (NULL);
@@ -32,7 +32,7 @@ list_t *add_node_end(list_t **head, const char *str)
 		 * new_node becomes the first
 		 */
 
-		*head == new_node;
+		*head = new_node;
 	else
 	{
 		/*
@@ -40,6 +40,7 @@ list_t *add_node_end(list_t **head, const char *str)
 		 * to point to new node
 		 */
 		i = *head;
+
 		while (i->next != NULL)
 			i = i->next;
 		i->next = new_node;
