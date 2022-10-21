@@ -9,7 +9,7 @@
  * struct list - sinlgly linked list
  * @str: string
  * @len: length of string
- * link: point to next node
+ * next: point to next node
  */
 typedef struct list
 {
