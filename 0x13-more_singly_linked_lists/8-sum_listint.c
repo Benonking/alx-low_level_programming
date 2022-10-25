@@ -3,7 +3,7 @@
 /**
  * sum_listint - return the sum of all the data in list
  * @head: head of the list
- * Return: sum 
+ * Return: sum
  */
 
 int sum_listint(listint_t *head)
@@ -12,7 +12,10 @@ int sum_listint(listint_t *head)
 
 	if (head == NULL)
 		return (0);
-	while (head->next != NULL)
+	while (head != NULL)
+	{
 		sum += head->n;
+		head = head->next;
+	}
 	return (sum);
 }
