@@ -2,7 +2,7 @@
 
 /**
  * add_nodeint - Add an elememt at the begining og the list
- * head: poins to head of list
+ * @head: poins to head of list
  * @n: element to be added
  * Return: Address of new element
  */
