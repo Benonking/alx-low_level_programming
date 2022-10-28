@@ -6,26 +6,29 @@
  * Return: Always 0
  *
  */
-
 void print_binary(unsigned long int n)
 {
-	if (n == 0)
-		_putchar('0');
-	else
-		print_b(n);
-}
 
-/**
- * print_b - Prints the binary representation of a number
- * @n: Number to interpret as binary
- */
-void print_b(unsigned long int n)
-{
-	if (n == 0)
-		return;
-	print_b((n >> 1));
-	if ((n & 1) == 1)
-		_putchar('1');
-	if ((n & 1) == 0)
-		_putchar('0');
+	unsigned long int n_copy = n, mask = 1;
+	int len = 0;
+
+	while (n_copy > 0)
+	{
+		len++;
+		n_copy >>= 1;
+	}
+	len -= 1;
+
+	if (len > 0) /* create mask based on length of num */
+		mask = mask << len;
+
+	while (mask > 0) /* match each rightmost bit to see if 1 or 0 */
+	{
+		if (n & mask)
+			_putchar('1');
+		else
+			_putchar('0');
+
+		mask >>= 1;
+	}
 }
