@@ -24,3 +24,27 @@ void print_rev(char *s)
 	}
 	_putchar('\n');
 }
+
+/**
+/**Method 2 using for loop
+ * print_rev - print string in reverse
+ * @str: string
+ * Return: 0
+ */
+
+void print_rev(char *str)
+{
+        int i = 0, len = 0, j;
+        while (str[i] != '\0')
+        {
+                i++;
+                len++;
+        }
+
+        for (j = len ; j >= 0; j--)
+        {
+                printf("%c", str[j]);
+        }
+        printf("\n");
+}
+*/
