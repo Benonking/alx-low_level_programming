@@ -7,19 +7,17 @@
  */
 dlistint_t *insert_node(dlistint_t *tmp, int n)
 {
-        dlistint_t *new;
+	dlistint_t *new;
 
-        new = malloc(sizeof(struct dlistint_s));
-        if (!new)
-                return (NULL);
-        new->n = n;
-
-        new->next = tmp;
-        new->prev = tmp->prev;
-        tmp->prev->next = new;
-        tmp->prev = new;
-
-        return (new);
+	new = malloc(sizeof(struct dlistint_s));
+	if (!new)
+		return (NULL);
+	new->n = n;
+	new->next = tmp;
+	new->prev = tmp->prev;
+	tmp->prev->next = new;
+	tmp->prev = new;
+	return (new);
 }
 
 /**
