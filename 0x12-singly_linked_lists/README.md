@@ -18,4 +18,4 @@ Each file in this repository contains implemetation for linked list datastructur
 - Coding style guidelines: [Betty Style](https://github.com/holbertonschool/Betty/wiki)
 
 ## Authors
-1.Masereka Benon [https://github.com/Benonking/images/blob/main/Black-icon-Twitter-logo-transparent-PNG.png?raw=true)](https://twitter.com/BenonKing)
+1.Masereka Benon [<img src ="https://github.com/Benonking/images/blob/main/Black-icon-Twitter-logo-transparent-PNG.png">](https://twitter.com/BenonKing)
