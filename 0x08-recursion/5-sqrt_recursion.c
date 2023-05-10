@@ -1,6 +1,5 @@
 #include "main.h"
-
-int sqr_recursion(int n, int i);
+/*int sqr_recursion(int n, int i);*/
 /**
  * _sqrt_recursion - print natural  sqaure root of n
  * @n: number
@@ -13,11 +12,12 @@ int _sqrt_recursion(int n)
 	return (sqr_recursion(n, 0));
 }
 /**
- * sqr_recursion - sqaurea number
+ * sqr_recursion - sqaure a number
  * @n: square of a number
  * @i: square root of n
  * Return: sqaure
  */
+ 
 
 int sqr_recursion(int n, int i)
 {
@@ -27,3 +27,4 @@ int sqr_recursion(int n, int i)
 		return (i);
 	return (sqr_recursion(n, i + 1));
 }
+
